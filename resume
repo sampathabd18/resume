@@ -1,0 +1,26 @@
+
+sampath@gitMINGW64 ~ (master)
+$ cd
+
+sampath@gitMINGW64 ~ (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/DELL/.git/
+
+sampath@gitMINGW64 ~ (master)
+$ ls
+'3D Objects'/         Documents/        'My Documents'@                                                                                 OneDrive/       SendTo@       'git-prompt repo.sh'
+ AppData/             Downloads/         NTUSER.DAT                                                                                     Pictures/      'Start Menu'@   ntuser.dat.LOG1
+'Application Data'@   Favorites/         NTUSER.DAT{1570bc01-e3b2-11ef-870a-e006e6a1de6d}.TM.blf                                        PrintHood@      Templates@     ntuser.dat.LOG2
+ Contacts/            Links/             NTUSER.DAT{1570bc01-e3b2-11ef-870a-e006e6a1de6d}.TMContainer00000000000000000001.regtrans-ms   Recent@         Videos/        ntuser.ini
+ Cookies@            'Local Settings'@   NTUSER.DAT{1570bc01-e3b2-11ef-870a-e006e6a1de6d}.TMContainer00000000000000000002.regtrans-ms  'Saved Games'/   file.c         resume/
+ Desktop/             Music/             NetHood@                                                                                       Searches/       file.txt       test/
+
+sampath@gitMINGW64 ~ (master)
+$ git config --global user.email"sake.kumar@s.amity.edu"
+
+sampath@gitMINGW64 ~ (master)
+$ git config --global user.name"s sai sampath kumar"
+error: invalid key: user.names sai sampath kumar
+
+sampath@gitMINGW64 ~ (master)
+$ git config --global user.name "sai sampath  kumar"
